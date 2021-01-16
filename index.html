@@ -28,6 +28,33 @@
 
 <body>
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button"
+                data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#about_me">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
     <header>
         <div class="wave">
             <div class="container header-container">
@@ -47,11 +74,7 @@
     <!-- Intro Paragraph -->
     <section class="container">
         <h1 class="title">Seeking New Opportunities</h1>
-        <h3 class="subtitle">I am an aspiring data analyst with a passion for creating beautiful
-            web
-            applications
-            built on
-            JavaScript technologies. </h3>
+        <h3 class="subtitle">I am an aspiring data analyst looking to utilize my skills of data processing and visualizing. </h3>
     </section>
 
     <!-- Skills Icons -->
@@ -114,11 +137,11 @@
     <section class="container-color">
     </section>
 
-    <!-- More About Me Section -->
-    <section class="container">
+    <!-- About Me Section -->
+    <section class="container" id='about_me'>
         <div class="card custom-card">
             <div class="card-body">
-                <h3 class="card-title">More about me</h3>
+                <h3 class="card-title">About me</h3>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas scelerisque
                     viverra vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
                     himenaeos. Vestibulum elementum fringilla lectus, ac condimentum mauris. Mauris vel tellus id tellus
@@ -133,12 +156,11 @@
         </div>
     </section>
 
-    <!-- TIMELINE -->
-    <section class="container">
+    <!-- Projects Timeline -->
+    <section class="container" id='projects'>
         <h1 class="title">Recent Projects</h1>
         <h3 class="subtitle">These are just a few of the projects I have collaborated on.</h3>
     </section>
-
 
     <div class="container">
         <div id="timeline">
@@ -227,9 +249,8 @@
         </div>
     </div>
 
-
     <!-- EDUCATION -->
-    <section class="container education-container">
+    <section class="container education-container" id='education'>
         <h1 class="title">Education </h1>
         <article class="education-item">
             <h3 class="subtitle">UC Berkeley Extension</h3>
@@ -254,15 +275,14 @@
         <div class="container">
             <h1 class="title">I'm available for work.
             </h1>
-            <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in a fast-paced,
-                agile environment. Get in touch!</h3>
+            <h3 class="subtitle">Seeking a full-time role in a fast-paced, agile environment. Get in touch!</h3>
         </div>
     </section>
 
     <!-- FOOTER -->
-    <section class="container-dark">
+    <section class="container-dark", id='connect'>
         <div class="container">
-            <h1>Contact Me</h1>
+            <h1>Connect with Me</h1>
             <h3 class="intro subtitle">
                 <a href="mailto:victor.yu.821@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
                 <a href="https://linkedin.com/in/victoryu821/" class="social-icon"><i class="fab fa-linkedin"></i></a>

@@ -125,7 +125,7 @@
 
     </section>
 
-    <div class="wave-svg-color">
+    <div class="wave-svg-color" id='about_me'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="#328eff" opacity="1" width="100%" height="80"
             preserveAspectRatio="none" viewBox="0 0 1600 200">
             <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
@@ -138,7 +138,7 @@
     </section>
 
     <!-- About Me Section -->
-    <section class="container" id='about_me'>
+    <section class="container">
         <div class="card custom-card">
             <div class="card-body">
                 <h3 class="card-title">About me</h3>
@@ -159,7 +159,7 @@
     <!-- Projects Timeline -->
     <section class="container" id='projects'>
         <h1 class="title">Recent Projects</h1>
-        <h3 class="subtitle">These are just a few of the projects I have collaborated on.</h3>
+        <h3 class="subtitle">These are just a few of the projects I have worked on.</h3>
     </section>
 
     <div class="container">
@@ -170,13 +170,14 @@
 
                 </div>
                 <div class="timeline-content">
-                    <h2>Project Title 1</h2>
+                    <h2>World Happiness Analysis</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Atque, facilis quo maiores magnam modi ab libero praesentium blanditiis.
+                        Analyzed world happiness data provided from Gallup World Poll to determine the impact of 
+                        certain factors on a country's happiness score. Followed ETL procedure while using Python to 
+                        clean the data and using PostgreSQL to load the cleaned data into a pgAdmin4 database. Created a neural 
+                        network machine learning model to  accurately predict the happiness score given factors.
                     </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/vyu821/world-happiness-analysis" class="btn"><i class="fab fa-github"></i> Code</a>
                 </div>
             </div>
 
@@ -186,14 +187,13 @@
 
                 </div>
                 <div class="timeline-content right">
-                    <h2>Project Title 2</h2>
+                    <h2>Amazon Review Analysis</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
+                        Used PySpark on Google Colaboratory, performed the ETL process to extract the dataset, transformed the data,
+                        connected to an AWS RDS instance, and loaded the transformed data into pgAdmin4. Then, using Pandas, 
+                        determined if there is any bias toward favorable reviews from Vine members in the dataset.
                     </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/vyu821/amazon-vine-analysis" class="btn"><i class="fab fa-github"></i> Code</a>
                 </div>
             </div>
 
@@ -202,14 +202,12 @@
                     <i class="fas fa-star fa-align"></i>
                 </div>
                 <div class="timeline-content">
-                    <h2>Project Title 3</h2>
+                    <h2>Bikesharing Visualization</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
+                        Used Tableau to visualize various bikesharing analytics such as length of time of bike rides for both genders
+                        and number of bike trips for each hour of the day.
                     </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/vyu821/bikesharing" class="btn"><i class="fab fa-github"></i> Code</a>
 
                 </div>
             </div>
@@ -220,14 +218,11 @@
 
                 </div>
                 <div class="timeline-content right">
-                    <h2>Project Title 4</h2>
+                    <h2>UFOs</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
+                        Used HTML, JavaScript, and CSS to display UFO data on a webpage with the ability to filter by search criteria.
                     </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/vyu821/UFOs" class="btn"><i class="fab fa-github"></i> Code</a>
                 </div>
             </div>
 
@@ -236,21 +231,19 @@
                     <i class="fas fa-star fa-align"></i>
                 </div>
                 <div class="timeline-content">
-                    <h2>Project Title 5</h2>
+                    <h2>Stock Analysis</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam
-                        modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt
-                        ipsa.
+                        Created a macro usign Excel VBA to efficiently analyze many stocks at once.
                     </p>
-                    <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
+                    <a href="https://github.com/vyu821/stock-analysis" class="btn"><i class="fab fa-github"></i> Code</a>
                 </div>
             </div>
         </div>
     </div>
-
+    
+    <br id='education' >
     <!-- EDUCATION -->
-    <section class="container education-container" id='education'>
+    <section class="container education-container">
         <h1 class="title">Education </h1>
         <article class="education-item">
             <h3 class="subtitle">UC Berkeley Extension</h3>
@@ -264,9 +257,9 @@
         <hr />
         <article class="education-item">
             <h3 class="subtitle">College of Alameda</h3>
-            <span class="text-muted">A.S Mathematics | Aug 2014 - May 2016</span>
+            <span class="text-muted">A.S. Mathematics | Aug 2014 - May 2016</span>
             <br>
-            <span class="text-muted">A.A Behavioral Sciences | Aug 2014 - May 2016</span>
+            <span class="text-muted">A.A. Behavioral Sciences | Aug 2014 - May 2016</span>
         </article>
     </section>
 
@@ -293,7 +286,7 @@
 
     <footer>
         <div class="container">
-            Victor Yu &copy; 2020 - 2021 |
+            Victor Yu &copy; 2020 - 2021 
 
         </div>
     </footer>
